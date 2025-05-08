@@ -1,5 +1,5 @@
 :root{
-    --branco-principal: #ffffff;
+    --cor-principal: #1d0cdcbd;
     
     --cinza-segundario: #C0C0C0;
 
@@ -11,6 +11,31 @@
 body{
     background-color: var(--cor-de-fundo);
 
-    color: var(--branco-principal);
+    color: var(--cor-principal);
+
+}
+.principal{
+    background-image: url("image\ 12.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+
+    
+}
+.container{
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+
+
+}
+.container_botao{
+    
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cinza-segundario);
+    display: block;
 
 }
