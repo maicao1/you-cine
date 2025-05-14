@@ -1,11 +1,16 @@
 :root{
-    --cor-principal: #1d0cdcbd;
+    --cor-principal: #e3e284bd;
     
     --cinza-segundario: #C0C0C0;
 
     --botao-azul: #167BF7;
 
+    --botao-2: #5b6777;
+
     --cor-de-fundo: #00030C;
+
+    --fonte-principal: 'Embed code'
+    
 
 }
 body{
@@ -13,7 +18,15 @@ body{
 
     color: var(--cor-principal);
 
+    font-family: var(--fonte-principal);
+
+font-size: 16px;
+
+font-weight: 400;
+    
+
 }
+
 .principal{
     background-image: url("image\ 12.png");
     background-repeat: no-repeat;
@@ -22,14 +35,27 @@ body{
 
     
 }
+
+
 .container{
     height: 150vh;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-
+    grid-template-columns: 30% 30% 30% ;
 
 
 }
+
+.container2{
+    
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+
+
+}
+
+
+
+
 .container_botao{
     
     background-color: var(--botao-azul);
@@ -37,5 +63,17 @@ body{
     padding: 1em;
     color: var(--cinza-segundario);
     display: block;
+   text-decoration: none; 
+
+}
+.container_botao1{
+    
+    background-color: var(--botao-2);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cinza-segundario);
+    display: block;
+   text-decoration: none; 
+ 
 
 }
