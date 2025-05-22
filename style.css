@@ -41,17 +41,10 @@ font-weight: 400;
     height: 150vh;
     display: grid;
     grid-template-columns: 30% 30% 30% ;
-
-
-}
-
-.container2{
-    
-    display: grid;
-    grid-template-columns: 30% 30% 30% ;
-
+    margin-bottom: 0.2em;
 
 }
+
 
 
 
@@ -92,4 +85,26 @@ font-weight: 400;
 }
 .container__div{
     margin: 0 6em;
+}
+
+
+.descricao_texto{
+    text-align: end;
+}
+.segundario_image{
+    width: 80%;
+    
+
+}
+.segundario{
+    align-items: center;
+    margin: 0 10em;
+    
+}
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 480x;
+    
+
+
 }
